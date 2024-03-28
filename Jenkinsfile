@@ -10,8 +10,8 @@ pipeline {
         
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Running unit tests...'
-                echo 'Running integration tests...'
+                echo 'Running the unit tests...'
+                echo 'Running the integration tests...'
             }
         }
         
