@@ -29,7 +29,7 @@ pipeline {
         
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying the application to staging server (e.g., AWS EC2 instance)...'
+                echo 'Deploying the application to staging server ...'
             }
         }
         
@@ -41,7 +41,7 @@ pipeline {
         
         stage('Deploy to Production') {
             steps {
-                echo 'Deploying the application to production server (e.g., AWS EC2 instance)...'
+                echo 'Deploying the application to production server ...'
             }
         }
     }
